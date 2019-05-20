@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8080
   servlet:
     contextPath: /api
 
@@ -11,7 +11,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/moviedb
     username: postgres
-    password: postgres@123
+    password: postgres123
 
   jpa:
     properties:
